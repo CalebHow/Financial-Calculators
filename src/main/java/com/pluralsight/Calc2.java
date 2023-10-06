@@ -11,7 +11,7 @@ public class Calc2 {
         deposit = deposit = input.nextDouble();
         System.out.println(deposit);
 
-    System.out.println("What is your interest?: ");
+    System.out.println("What is your desired interest?: ");
     double interest = input.nextDouble();
     System.out.println(interest);
 
@@ -20,8 +20,8 @@ public class Calc2 {
     System.out.println(years);
 
     interest /= 12;
-    double total = deposit * Math.pow(interest , years);
-
+    double Total = deposit * Math.pow(interest , years);
+    System.out.println("Your total is " + Total);
 
     }
 }
